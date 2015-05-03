@@ -1,1 +1,32 @@
-%h1 This is the w
+#banner
+	.banner_content
+		%h1 NOtify
+		%p My Online Notebook. Never forget an idea again.
+		%button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+	.wrapper
+		%p.qoute "The greatest notebook application. Period."
+		%p.name - Keynent Talip
+
+#callouts
+	.callout_inner 
+		.wrapper
+			.callout
+				%h2 Notes
+				%p The quick brown fox jump over the lazy dog near the bank of the river.
+			.callout
+				%h2 Rocket
+				%p The quick brown fox jump over the lazy dog near the bank of the river.
+			.callout
+				%h2 Lightning
+				%p The quick brown fox jump over the lazy dog near the bank of the river.
+
+#bottom_cta
+	.wrapper
+		%h2 For Realz!
+		%p I want you to sign up
+		%button= link_to "Click Meee!!", new_user_registration_path
+
+%footer
+	%p &copy; Mackenzie Child
